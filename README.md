@@ -1,4 +1,4 @@
-# Burkholderiaceae_analyses
+# Burkholderiaceae analyses
 
 diCenzo GC, Mengoni A, Perrin E. 2018. Emergence and features of the multipartite genome structure of the family *Burkholderiaceae* revealed through comparative and evolutionary genomics. bioRxiv. doi:10.1101/382267.
 
