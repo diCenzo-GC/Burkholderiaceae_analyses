@@ -1,0 +1,4 @@
+perl downloadGenomes.pl refseqGenomeInformation.txt
+perl downloadProteomes.pl refseqGenomeInformation.txt
+perl downloadGenomes.pl refseqGenomeInformation.txt
+perl downloadProteomes.pl refseqGenomeInformation.txt
