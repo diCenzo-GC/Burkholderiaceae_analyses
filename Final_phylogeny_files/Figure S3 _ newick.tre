@@ -1,0 +1,474 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=380;
+	taxlabels
+	'NC_003295.1'
+	'NC_005241.1'
+	'NC_006349.2'[&RepliconType=1]
+	'NC_007336.1'
+	'NC_007435.1'[&RepliconType=1]
+	'NC_007509.1'[&RepliconType=2]
+	'NC_007511.1'[&RepliconType=1]
+	'NC_007650.1'[&RepliconType=1]
+	'NC_007971.2'
+	'NC_007973.1'
+	'NC_008061.1'[&RepliconType=1]
+	'NC_008062.1'[&RepliconType=2]
+	'NC_008391.1'[&RepliconType=1]
+	'NC_008392.1'[&RepliconType=2]
+	'NC_008543.1'[&RepliconType=1]
+	'NC_008544.1'[&RepliconType=2]
+	'NC_008784.1'[&RepliconType=1]
+	'NC_008835.1'[&RepliconType=1]
+	'NC_009075.1'[&RepliconType=1]
+	'NC_009078.1'[&RepliconType=1]
+	'NC_009226.1'
+	'NC_009227.1'
+	'NC_009228.1'
+	'NC_009254.1'[&RepliconType=2]
+	'NC_009255.1'[&RepliconType=1]
+	'NC_010070.1'
+	'NC_010084.1'
+	'NC_010086.1'[&RepliconType=1]
+	'NC_010087.1'[&RepliconType=2]
+	'NC_010512.1'[&RepliconType=2]
+	'NC_010515.1'[&RepliconType=1]
+	'NC_010529.1'
+	'NC_010552.1'[&RepliconType=1]
+	'NC_010553.1'
+	'NC_010557.1'[&RepliconType=2]
+	'NC_010623.1'[&RepliconType=3]
+	'NC_010625.1'[&RepliconType=5]
+	'NC_010627.1'
+	'NC_010676.1'[&RepliconType=3]
+	'NC_010679.1'
+	'NC_010682.1'
+	'NC_010683.1'
+	'NC_011000.1'
+	'NC_011001.1'[&RepliconType=1]
+	'NC_011002.1'[&RepliconType=2]
+	'NC_012721.2'[&RepliconType=1]
+	'NC_012849.1'
+	'NC_012851.1'
+	'NC_012855.1'
+	'NC_014118.1'[&RepliconType=3]
+	'NC_014119.1'[&RepliconType=5]
+	'NC_014120.1'
+	'NC_014540.1'[&RepliconType=3]
+	'NC_014718.1'[&RepliconType=4]
+	'NC_015137.1'[&RepliconType=3]
+	'NC_015376.1'[&RepliconType=1]
+	'NC_015377.1'
+	'NC_015381.1'
+	'NC_015383.1'
+	'NC_015724.1'
+	'NC_015727.1'
+	'NC_016590.1'[&RepliconType=5]
+	'NC_016625.1'[&RepliconType=3]
+	'NC_017921.1'[&RepliconType=1]
+	'NC_017922.1'[&RepliconType=2]
+	'NC_017923.1'
+	'NC_018514.1'[&RepliconType=1]
+	'NC_018529.1'[&RepliconType=1]
+	'NC_018672.1'[&RepliconType=3]
+	'NC_018696.1'
+	'NC_021174.1'[&RepliconType=1]
+	'NC_021288.1'[&RepliconType=5]
+	'NC_021294.1'[&RepliconType=3]
+	'NC_021295.1'
+	'NC_021877.1'[&RepliconType=1]
+	'NC_022515.1'
+	'NC_022658.1'[&RepliconType=1]
+	'NZ_AP014577.1'[&RepliconType=3]
+	'NZ_AP014578.1'[&RepliconType=5]
+	'NZ_AP014581.1'
+	'NZ_AP018112.1'[&RepliconType=1]
+	'NZ_AP018113.1'[&RepliconType=2]
+	'NZ_CM000439.1'[&RepliconType=1]
+	'NZ_CM001157.1'[&RepliconType=1]
+	'NZ_CM002278.1'[&RepliconType=1]
+	'NZ_CM002279.1'[&RepliconType=2]
+	'NZ_CM003020.1'[&RepliconType=1]
+	'NZ_CM003195.1'[&RepliconType=1]
+	'NZ_CM003197.1'[&RepliconType=1]
+	'NZ_CP002581.1'[&RepliconType=1]
+	'NZ_CP004002.1'[&RepliconType=1]
+	'NZ_CP004004.1'[&RepliconType=1]
+	'NZ_CP004024.1'[&RepliconType=1]
+	'NZ_CP004043.1'[&RepliconType=1]
+	'NZ_CP004090.1'[&RepliconType=1]
+	'NZ_CP004098.1'[&RepliconType=1]
+	'NZ_CP004118.1'[&RepliconType=1]
+	'NZ_CP004369.1'[&RepliconType=1]
+	'NZ_CP004378.1'[&RepliconType=1]
+	'NZ_CP004380.1'[&RepliconType=1]
+	'NZ_CP004381.1'
+	'NZ_CP004382.1'[&RepliconType=1]
+	'NZ_CP004384.1'[&RepliconType=1]
+	'NZ_CP004386.1'[&RepliconType=1]
+	'NZ_CP007212.1'
+	'NZ_CP007213.1'[&RepliconType=1]
+	'NZ_CP007779.1'[&RepliconType=2]
+	'NZ_CP007780.1'[&RepliconType=1]
+	'NZ_CP007782.1'[&RepliconType=2]
+	'NZ_CP007783.1'
+	'NZ_CP007784.1'[&RepliconType=1]
+	'NZ_CP007785.1'[&RepliconType=2]
+	'NZ_CP007786.1'[&RepliconType=1]
+	'NZ_CP007801.1'[&RepliconType=1]
+	'NZ_CP008705.1'[&RepliconType=1]
+	'NZ_CP008710.1'[&RepliconType=1]
+	'NZ_CP008722.1'[&RepliconType=1]
+	'NZ_CP008727.1'[&RepliconType=1]
+	'NZ_CP008728.1'[&RepliconType=2]
+	'NZ_CP008729.1'[&RepliconType=1]
+	'NZ_CP008730.1'
+	'NZ_CP008731.1'[&RepliconType=1]
+	'NZ_CP008761.1'[&RepliconType=5]
+	'NZ_CP008762.1'[&RepliconType=3]
+	'NZ_CP008778.1'[&RepliconType=1]
+	'NZ_CP008779.1'[&RepliconType=1]
+	'NZ_CP008782.1'[&RepliconType=1]
+	'NZ_CP008783.1'[&RepliconType=1]
+	'NZ_CP008835.1'[&RepliconType=1]
+	'NZ_CP008891.1'[&RepliconType=1]
+	'NZ_CP008893.1'[&RepliconType=1]
+	'NZ_CP008910.1'[&RepliconType=1]
+	'NZ_CP008912.1'[&RepliconType=1]
+	'NZ_CP008917.1'[&RepliconType=1]
+	'NZ_CP009127.1'[&RepliconType=1]
+	'NZ_CP009147.1'[&RepliconType=1]
+	'NZ_CP009150.1'[&RepliconType=1]
+	'NZ_CP009152.1'[&RepliconType=1]
+	'NZ_CP009155.1'
+	'NZ_CP009156.1'[&RepliconType=1]
+	'NZ_CP009160.1'[&RepliconType=1]
+	'NZ_CP009163.1'[&RepliconType=1]
+	'NZ_CP009164.1'[&RepliconType=1]
+	'NZ_CP009210.1'[&RepliconType=1]
+	'NZ_CP009234.1'[&RepliconType=1]
+	'NZ_CP009269.1'[&RepliconType=1]
+	'NZ_CP009272.1'[&RepliconType=1]
+	'NZ_CP009297.1'[&RepliconType=1]
+	'NZ_CP009319.1'
+	'NZ_CP009321.1'
+	'NZ_CP009322.1'[&RepliconType=1]
+	'NZ_CP009338.1'[&RepliconType=1]
+	'NZ_CP009433.1'
+	'NZ_CP009434.1'[&RepliconType=1]
+	'NZ_CP009473.1'[&RepliconType=1]
+	'NZ_CP009477.1'[&RepliconType=1]
+	'NZ_CP009484.1'[&RepliconType=1]
+	'NZ_CP009486.1'[&RepliconType=1]
+	'NZ_CP009487.1'[&RepliconType=2]
+	'NZ_CP009536.1'[&RepliconType=1]
+	'NZ_CP009537.1'[&RepliconType=1]
+	'NZ_CP009546.1'[&RepliconType=1]
+	'NZ_CP009547.1'
+	'NZ_CP009548.1'[&RepliconType=1]
+	'NZ_CP009550.1'[&RepliconType=1]
+	'NZ_CP009556.1'[&RepliconType=1]
+	'NZ_CP009586.1'[&RepliconType=1]
+	'NZ_CP009588.1'[&RepliconType=1]
+	'NZ_CP009602.1'[&RepliconType=1]
+	'NZ_CP009629.1'
+	'NZ_CP009630.1'[&RepliconType=1]
+	'NZ_CP009632.1'[&RepliconType=2]
+	'NZ_CP009643.1'[&RepliconType=1]
+	'NZ_CP009708.1'[&RepliconType=1]
+	'NZ_CP009726.1'[&RepliconType=1]
+	'NZ_CP009728.1'[&RepliconType=1]
+	'NZ_CP009730.1'[&RepliconType=1]
+	'NZ_CP009732.1'[&RepliconType=1]
+	'NZ_CP009734.1'[&RepliconType=1]
+	'NZ_CP009736.1'[&RepliconType=1]
+	'NZ_CP009738.1'[&RepliconType=1]
+	'NZ_CP009740.1'[&RepliconType=1]
+	'NZ_CP009742.1'[&RepliconType=1]
+	'NZ_CP009744.1'[&RepliconType=1]
+	'NZ_CP009745.1'[&RepliconType=2]
+	'NZ_CP009793.1'[&RepliconType=1]
+	'NZ_CP009794.1'[&RepliconType=2]
+	'NZ_CP009830.1'[&RepliconType=2]
+	'NZ_CP009831.1'[&RepliconType=1]
+	'NZ_CP009898.1'[&RepliconType=1]
+	'NZ_CP009930.1'[&RepliconType=1]
+	'NZ_CP009932.1'[&RepliconType=1]
+	'NZ_CP009943.1'[&RepliconType=1]
+	'NZ_CP010016.1'
+	'NZ_CP010018.1'[&RepliconType=1]
+	'NZ_CP010024.1'
+	'NZ_CP010025.1'
+	'NZ_CP010027.1'[&RepliconType=3]
+	'NZ_CP010066.1'[&RepliconType=1]
+	'NZ_CP010349.1'[&RepliconType=1]
+	'NZ_CP010974.1'[&RepliconType=1]
+	'NZ_CP011504.1'[&RepliconType=1]
+	'NZ_CP011505.1'[&RepliconType=2]
+	'NZ_CP011506.1'
+	'NZ_CP011807.3'
+	'NZ_CP011808.2'
+	'NZ_CP011918.1'[&RepliconType=1]
+	'NZ_CP011919.1'[&RepliconType=2]
+	'NZ_CP012042.1'[&RepliconType=1]
+	'NZ_CP012193.1'[&RepliconType=3]
+	'NZ_CP012516.1'[&RepliconType=1]
+	'NZ_CP012518.1'[&RepliconType=1]
+	'NZ_CP012577.1'[&RepliconType=1]
+	'NZ_CP012605.1'
+	'NZ_CP012607.1'
+	'NZ_CP012747.1'[&RepliconType=3]
+	'NZ_CP012748.1'[&RepliconType=5]
+	'NZ_CP012899.1'
+	'NZ_CP012941.1'
+	'NZ_CP012982.1'[&RepliconType=1]
+	'NZ_CP012983.1'[&RepliconType=2]
+	'NZ_CP012984.1'
+	'NZ_CP013103.1'[&RepliconType=3]
+	'NZ_CP013104.1'[&RepliconType=5]
+	'NZ_CP013105.1'
+	'NZ_CP013348.1'[&RepliconType=3]
+	'NZ_CP013349.1'[&RepliconType=5]
+	'NZ_CP013361.1'[&RepliconType=1]
+	'NZ_CP013363.1'[&RepliconType=1]
+	'NZ_CP013364.1'[&RepliconType=2]
+	'NZ_CP013365.1'[&RepliconType=1]
+	'NZ_CP013367.1'[&RepliconType=2]
+	'NZ_CP013368.1'[&RepliconType=2]
+	'NZ_CP013369.1'
+	'NZ_CP013370.1'
+	'NZ_CP013371.1'[&RepliconType=1]
+	'NZ_CP013375.1'
+	'NZ_CP013376.1'[&RepliconType=1]
+	'NZ_CP013381.1'
+	'NZ_CP013382.1'[&RepliconType=1]
+	'NZ_CP013395.1'[&RepliconType=2]
+	'NZ_CP013396.1'[&RepliconType=1]
+	'NZ_CP013399.1'[&RepliconType=2]
+	'NZ_CP013400.1'[&RepliconType=1]
+	'NZ_CP013402.1'[&RepliconType=2]
+	'NZ_CP013403.1'[&RepliconType=1]
+	'NZ_CP013405.1'[&RepliconType=2]
+	'NZ_CP013406.1'[&RepliconType=1]
+	'NZ_CP013410.1'[&RepliconType=1]
+	'NZ_CP013415.1'
+	'NZ_CP013416.1'[&RepliconType=1]
+	'NZ_CP013418.1'[&RepliconType=1]
+	'NZ_CP013419.1'
+	'NZ_CP013421.1'[&RepliconType=2]
+	'NZ_CP013422.1'[&RepliconType=1]
+	'NZ_CP013423.1'
+	'NZ_CP013431.1'[&RepliconType=1]
+	'NZ_CP013432.1'[&RepliconType=2]
+	'NZ_CP013436.1'
+	'NZ_CP013437.1'[&RepliconType=2]
+	'NZ_CP013438.1'[&RepliconType=1]
+	'NZ_CP013440.1'[&RepliconType=1]
+	'NZ_CP013441.1'[&RepliconType=2]
+	'NZ_CP013442.1'[&RepliconType=2]
+	'NZ_CP013444.1'[&RepliconType=1]
+	'NZ_CP013445.1'[&RepliconType=2]
+	'NZ_CP013447.1'[&RepliconType=1]
+	'NZ_CP013449.1'[&RepliconType=1]
+	'NZ_CP013451.1'[&RepliconType=2]
+	'NZ_CP013452.1'[&RepliconType=1]
+	'NZ_CP013454.1'
+	'NZ_CP013456.1'[&RepliconType=2]
+	'NZ_CP013458.1'[&RepliconType=1]
+	'NZ_CP013460.1'[&RepliconType=2]
+	'NZ_CP013461.1'[&RepliconType=1]
+	'NZ_CP013462.1'
+	'NZ_CP013464.1'[&RepliconType=1]
+	'NZ_CP013465.1'[&RepliconType=2]
+	'NZ_CP013466.1'[&RepliconType=1]
+	'NZ_CP013468.1'[&RepliconType=2]
+	'NZ_CP013482.1'
+	'NZ_CP013731.1'[&RepliconType=1]
+	'NZ_CP013732.1'[&RepliconType=2]
+	'NZ_CP014507.1'[&RepliconType=3]
+	'NZ_CP014509.1'
+	'NZ_CP014510.1'
+	'NZ_CP014579.1'[&RepliconType=3]
+	'NZ_CP014580.1'
+	'NZ_CP014582.1'
+	'NZ_CP014844.1'
+	'NZ_CP015032.1'
+	'NZ_CP015034.1'[&RepliconType=1]
+	'NZ_CP015035.1'[&RepliconType=2]
+	'NZ_CP015372.1'
+	'NZ_CP016000.1'[&RepliconType=3]
+	'NZ_CP016001.1'[&RepliconType=5]
+	'NZ_CP016004.1'
+	'NZ_CP016005.1'
+	'NZ_CP016006.1'
+	'NZ_CP016024.1'
+	'NZ_CP016025.1'
+	'NZ_CP016442.1'
+	'NZ_CP016443.1'[&RepliconType=1]
+	'NZ_CP016444.1'[&RepliconType=2]
+	'NZ_CP016612.1'
+	'NZ_CP016637.1'[&RepliconType=1]
+	'NZ_CP016639.1'[&RepliconType=1]
+	'NZ_CP016910.1'[&RepliconType=1]
+	'NZ_CP016912.1'[&RepliconType=1]
+	'NZ_CP017045.1'[&RepliconType=1]
+	'NZ_CP017047.1'[&RepliconType=1]
+	'NZ_CP017049.1'[&RepliconType=1]
+	'NZ_CP017051.1'[&RepliconType=1]
+	'NZ_CP017053.1'[&RepliconType=1]
+	'NZ_CP017176.1'[&RepliconType=1]
+	'NZ_CP017239.1'[&RepliconType=1]
+	'NZ_CP017240.1'[&RepliconType=2]
+	'NZ_CP017562.1'[&RepliconType=3]
+	'NZ_CP017563.1'[&RepliconType=5]
+	'NZ_CP017564.1'
+	'NZ_CP017565.1'
+	'NZ_CP017748.1'
+	'NZ_CP017753.1'
+	'NZ_CP017756.1'
+	'NZ_CP017759.1'
+	'NZ_CP018055.1'[&RepliconType=1]
+	'NZ_CP018367.1'[&RepliconType=1]
+	'NZ_CP018370.1'[&RepliconType=1]
+	'NZ_CP018371.1'[&RepliconType=1]
+	'NZ_CP018372.1'
+	'NZ_CP018374.1'[&RepliconType=1]
+	'NZ_CP018375.1'[&RepliconType=1]
+	'NZ_CP018380.1'
+	'NZ_CP018381.1'[&RepliconType=1]
+	'NZ_CP018382.1'[&RepliconType=1]
+	'NZ_CP018386.1'[&RepliconType=1]
+	'NZ_CP018388.1'[&RepliconType=1]
+	'NZ_CP018390.1'[&RepliconType=1]
+	'NZ_CP018392.1'[&RepliconType=1]
+	'NZ_CP018394.1'[&RepliconType=1]
+	'NZ_CP018396.1'
+	'NZ_CP018397.1'[&RepliconType=1]
+	'NZ_CP018398.1'[&RepliconType=1]
+	'NZ_CP018402.1'[&RepliconType=1]
+	'NZ_CP018404.1'[&RepliconType=1]
+	'NZ_CP018407.1'[&RepliconType=1]
+	'NZ_CP018409.1'[&RepliconType=1]
+	'NZ_CP018411.1'[&RepliconType=1]
+	'NZ_CP018412.1'[&RepliconType=1]
+	'NZ_CP018416.1'
+	'NZ_CP018417.1'[&RepliconType=1]
+	'NZ_CP018419.1'[&RepliconType=1]
+	'NZ_CP018812.1'[&RepliconType=3]
+	'NZ_CP019672.1'[&RepliconType=1]
+	'NZ_CP019673.1'[&RepliconType=2]
+	'NZ_CP019675.1'[&RepliconType=2]
+	'NZ_CP019676.1'[&RepliconType=1]
+	'NZ_CP020600.1'[&RepliconType=1]
+	'NZ_CP020601.1'[&RepliconType=2]
+	'NZ_CP022006.1'[&RepliconType=1]
+	'NZ_CP022007.1'
+	'NZ_CP022008.1'
+	'NZ_CP022081.1'
+	'NZ_CP022082.1'[&RepliconType=2]
+	'NZ_CP022084.1'[&RepliconType=1]
+	'NZ_CP022989.1'
+	'NZ_CP022990.1'[&RepliconType=3]
+	'NZ_CP022991.1'
+	'NZ_CP022992.1'
+	'NZ_CP022994.1'
+	'NZ_CP022995.1'
+	'NZ_CP022996.1'
+	'NZ_CP023498.1'[&RepliconType=1]
+	'NZ_CP023519.1'
+	'NZ_CP023520.1'[&RepliconType=2]
+	'NZ_CP023521.1'[&RepliconType=1]
+	'NZ_CP023523.1'[&RepliconType=1]
+	'NZ_HG938371.1'[&RepliconType=1]
+	'NZ_HG938372.1'[&RepliconType=2]
+	'NZ_LK936443.1'[&RepliconType=1]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_010070.1':0.22529,(((('NZ_CP015372.1':0.156053,'NZ_CP013423.1':0.126368)[&label=91]:0.189263,'NZ_CP013370.1':0.334675)[&label=94]:0.228333,(('NC_009228.1':0.049635,'NZ_CP022994.1':0.057537)[&label=100]:0.37585,'NC_010679.1':0.592205)[&label=81]:0.24729)[&label=62]:0.178953,('NZ_CP013482.1':0.828678,(((('NZ_CP011807.3':0.072205,('NC_011000.1':0.025605,'NZ_CP016612.1':0.049525)[&label=70]:0.044008)[&label=100]:0.512308,'NZ_CP016442.1':0.385002)[&label=91]:0.239086,(((('NC_015377.1':0.122389,(((('NZ_CP022081.1':1.0E-6,('NZ_CP012984.1':1.0E-6,'NZ_CP023519.1':1.0E-6)[&label=28]:1.0E-6)[&label=87]:0.007242,'NZ_CP018396.1':1.0E-6)[&label=56]:0.007367,'NZ_CP009155.1':0.023758)[&label=81]:0.02338,'NZ_CP013454.1':1.0E-6)[&label=99]:0.100069)[&label=97]:0.200877,('NZ_CP009629.1':0.058118,'NZ_CP017564.1':0.067663)[&label=78]:0.102285)[&label=100]:0.849414,(('NZ_CP004381.1':1.0E-6,'NZ_CP018380.1':1.0E-6)[&label=100]:0.60817,(('NZ_CP013462.1':0.4324,((('NC_010683.1':1.0E-6,'NZ_CP012607.1':1.0E-6)[&label=41]:1.0E-6,'NZ_CP016025.1':1.0E-6)[&label=69]:1.0E-6,'NC_012851.1':0.008244)[&label=100]:0.381171)[&label=67]:0.188519,('NZ_CP022996.1':0.333041,(('NZ_CP014582.1':0.19573,(('NZ_CP009319.1':1.0E-6,'NZ_CP022008.1':0.072964)[&label=100]:0.190192,'NC_017923.1':0.153832)[&label=89]:0.112635)[&label=76]:0.081227,'NZ_CP022995.1':0.181079)[&label=99]:0.661421)[&label=78]:0.194765)[&label=43]:0.208706)[&label=59]:0.22969)[&label=100]:1.362024,((((('NZ_CP012748.1':1.0E-6,(('NZ_CP013349.1':1.0E-6,'NZ_CP013104.1':1.0E-6)[&label=77]:1.0E-6,'NC_010625.1':0.019454)[&label=44]:0.00385)[&label=100]:0.718752,('NZ_CP014509.1':0.668857,('NZ_CP013105.1':0.289608,('NZ_CP013415.1':0.104194,('NZ_AP014581.1':0.702047,(('NZ_CP011506.1':0.003793,'NZ_CP013436.1':1.0E-6)[&label=59]:0.003796,'NZ_CP010016.1':1.0E-6)[&label=84]:0.058273)[&label=53]:0.127382)[&label=85]:0.201045)[&label=74]:0.27988)[&label=46]:0.123331)[&label=67]:0.230646,'NC_009226.1':0.843746)[&label=97]:0.678042,((((('NC_012855.1':0.021872,'NZ_CP016024.1':0.033251)[&label=99]:0.237118,'NZ_CP022992.1':0.179513)[&label=98]:0.804589,(((('NC_015383.1':1.0E-6,'NZ_CP022007.1':1.0E-6)[&label=33]:1.0E-6,'NZ_CP009321.1':1.0E-6)[&label=100]:0.260044,(('NZ_CP009794.1':1.0E-6,'NZ_CM002279.1':1.0E-6)[&label=98]:0.006308,((((((((('NZ_CP013465.1':1.0E-6,'NZ_CP013421.1':1.0E-6)[&label=18]:1.0E-6,'NZ_CP013368.1':1.0E-6)[&label=7]:1.0E-6,'NZ_CP009487.1':1.0E-6)[&label=16]:1.0E-6,'NZ_CP013445.1':1.0E-6)[&label=98]:0.014507,'NZ_CP013395.1':1.0E-6)[&label=19]:0.003616,((('NZ_CP013441.1':1.0E-6,('NZ_CP013456.1':1.0E-6,'NC_009254.1':1.0E-6)[&label=13]:1.0E-6)[&label=6]:1.0E-6,'NZ_CP009632.1':1.0E-6)[&label=6]:1.0E-6,'NC_017922.1':1.0E-6)[&label=65]:1.0E-6)[&label=26]:0.003621,((('NZ_CP013460.1':0.025653,'NZ_CP007782.1':0.003553)[&label=44]:0.006311,('NZ_CP013468.1':1.0E-6,(('NC_010087.1':1.0E-6,('NZ_CP013432.1':1.0E-6,'NZ_CP008728.1':1.0E-6)[&label=13]:1.0E-6)[&label=8]:1.0E-6,'NZ_CP009830.1':1.0E-6)[&label=16]:1.0E-6)[&label=91]:0.004645)[&label=29]:0.003664,(((((('NZ_CP015035.1':1.0E-6,('NC_011002.1':1.0E-6,('NC_010512.1':1.0E-6,(((('NZ_CP020601.1':1.0E-6,'NZ_CP019673.1':1.0E-6)[&label=2]:1.0E-6,'NC_008544.1':1.0E-6)[&label=2]:1.0E-6,(('NZ_CP019675.1':1.0E-6,('NZ_CP017240.1':1.0E-6,'NZ_CP011919.1':1.0E-6)[&label=3]:1.0E-6)[&label=0]:1.0E-6,'NC_008062.1':1.0E-6)[&label=3]:1.0E-6)[&label=1]:1.0E-6,'NZ_HG938372.1':1.0E-6)[&label=0]:1.0E-6)[&label=1]:1.0E-6)[&label=14]:1.0E-6)[&label=42]:1.0E-6,(('NZ_CP013402.1':0.007227,('NZ_CP016444.1':1.0E-6,('NC_007509.1':1.0E-6,('NZ_CP009745.1':1.0E-6,'NZ_CP013405.1':1.0E-6)[&label=35]:1.0E-6)[&label=74]:0.003609)[&label=38]:1.0E-6)[&label=47]:0.003609,'NZ_CP007785.1':0.003604)[&label=18]:1.0E-6)[&label=51]:0.003613,'NZ_CP011505.1':0.007221)[&label=5]:1.0E-6,(('NZ_CP013451.1':1.0E-6,'NZ_AP018113.1':1.0E-6)[&label=2]:1.0E-6,('NZ_CP013732.1':1.0E-6,'NZ_CP013399.1':1.0E-6)[&label=26]:1.0E-6)[&label=12]:1.0E-6)[&label=2]:1.0E-6,(('NZ_CP012983.1':1.0E-6,'NZ_CP023520.1':1.0E-6)[&label=34]:1.0E-6,'NZ_CP022082.1':1.0E-6)[&label=81]:0.003609)[&label=14]:0.003606,'NZ_CP013442.1':1.0E-6)[&label=32]:0.006183)[&label=14]:0.004642)[&label=14]:0.003614,((('NC_010557.1':1.0E-6,'NC_008392.1':1.0E-6)[&label=80]:0.003609,'NZ_CP013364.1':1.0E-6)[&label=4]:1.0E-6,'NZ_CP013367.1':1.0E-6)[&label=20]:1.0E-6)[&label=26]:0.003609,('NZ_CP007779.1':1.0E-6,'NZ_CP013437.1':1.0E-6)[&label=80]:1.0E-6)[&label=41]:0.008307)[&label=80]:0.095863)[&label=99]:0.21253,(('NZ_CP009433.1':0.175508,'NC_009227.1':0.177377)[&label=100]:0.410155,('NZ_CP017756.1':0.151306,('NC_012849.1':1.0E-6,'NC_010682.1':1.0E-6)[&label=100]:0.200628)[&label=100]:0.282862)[&label=62]:0.088006)[&label=99]:0.471531)[&label=44]:0.099771,('NZ_CP014844.1':1.208923,(((('NC_015376.1':1.0E-6,('NZ_CP022006.1':1.0E-6,'NZ_CP023523.1':1.0E-6)[&label=18]:1.0E-6)[&label=14]:1.0E-6,'NZ_CP009322.1':1.0E-6)[&label=97]:1.0E-6,(((('NZ_CP009434.1':1.0E-6,'NC_012721.2':1.0E-6)[&label=26]:1.0E-6,'NZ_CP007213.1':1.0E-6)[&label=18]:1.0E-6,'NZ_CP002581.1':1.0E-6)[&label=97]:0.003704,((('NZ_CP013461.1':1.0E-6,('NC_014718.1':0.069728,((('NZ_CP009793.1':1.0E-6,'NZ_CM002278.1':1.0E-6)[&label=92]:0.003821,((('NC_010086.1':1.0E-6,('NZ_CP009831.1':1.0E-6,'NZ_CP008729.1':1.0E-6)[&label=14]:1.0E-6)[&label=9]:1.0E-6,('NZ_CP013466.1':1.0E-6,'NZ_CP013431.1':1.0E-6)[&label=13]:1.0E-6)[&label=75]:0.0038,('NZ_CP007784.1':1.0E-6,(((('NZ_CP013396.1':1.0E-6,('NZ_CP013403.1':1.0E-6,'NZ_CP019676.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP007786.1':1.0E-6)[&label=0]:1.0E-6,('NC_008061.1':1.0E-6,(((((((((('NZ_CP007780.1':1.0E-6,('NC_018514.1':1.0E-6,('NZ_CP011918.1':1.0E-6,('NZ_CP011504.1':1.0E-6,('NC_010515.1':1.0E-6,('NZ_CP017239.1':1.0E-6,('NZ_CP013444.1':1.0E-6,'NZ_CP013363.1':1.0E-6)[&label=1]:1.0E-6)[&label=3]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP013438.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP019672.1':1.0E-6)[&label=0]:1.0E-6,'NZ_HG938371.1':1.0E-6)[&label=0]:1.0E-6,'NC_008543.1':1.0E-6)[&label=0]:1.0E-6,'NC_011001.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP013452.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP015034.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP013365.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP020600.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=13]:1.0E-6,((('NZ_CP009630.1':1.0E-6,(('NC_017921.1':1.0E-6,'NZ_CP013440.1':1.0E-6)[&label=12]:1.0E-6,'NC_009255.1':1.0E-6)[&label=15]:1.0E-6)[&label=62]:0.003815,((('NZ_CP013406.1':1.0E-6,'NZ_CP009744.1':1.0E-6)[&label=24]:1.0E-6,'NC_007511.1':1.0E-6)[&label=29]:1.0E-6,'NZ_CP016443.1':1.0E-6)[&label=86]:0.003809)[&label=1]:1.0E-6,((('NZ_CP013731.1':1.0E-6,'NZ_CP013400.1':1.0E-6)[&label=81]:0.003806,(('NZ_AP018112.1':1.0E-6,'NC_008391.1':1.0E-6)[&label=19]:1.0E-6,'NC_010552.1':1.0E-6)[&label=75]:1.0E-6)[&label=45]:0.003806,((('NZ_CP013376.1':1.0E-6,'NZ_CP022084.1':1.0E-6)[&label=17]:1.0E-6,'NZ_CP012982.1':1.0E-6)[&label=15]:1.0E-6,'NZ_CP023521.1':1.0E-6)[&label=83]:0.003806)[&label=5]:1.0E-6)[&label=8]:1.0E-6)[&label=38]:0.003805)[&label=11]:1.0E-6)[&label=62]:0.003813)[&label=70]:0.011446,(((('NZ_CP013416.1':1.0E-6,'NZ_CP013371.1':1.0E-6)[&label=11]:1.0E-6,'NZ_CP009486.1':1.0E-6)[&label=6]:1.0E-6,'NZ_CP013447.1':1.0E-6)[&label=5]:1.0E-6,('NZ_CP013464.1':1.0E-6,'NZ_CP013422.1':1.0E-6)[&label=17]:1.0E-6)[&label=97]:0.007665)[&label=15]:1.0E-6)[&label=19]:0.007628)[&label=25]:0.013911,(((((((('NC_014118.1':1.0E-6,'NZ_CP017562.1':0.003814)[&label=94]:0.011488,('NC_014540.1':1.0E-6,'NZ_CP012193.1':1.0E-6)[&label=83]:0.003827)[&label=28]:1.0E-6,('NC_018672.1':1.0E-6,'NC_015137.1':1.0E-6)[&label=60]:1.0E-6)[&label=54]:0.003824,('NZ_CP008762.1':1.0E-6,'NZ_CP022990.1':1.0E-6)[&label=68]:1.0E-6)[&label=27]:1.0E-6,('NC_010676.1':2.34E-4,('NZ_CP010027.1':0.007638,'NZ_CP014579.1':0.003841)[&label=78]:0.00759)[&label=76]:0.00758)[&label=76]:0.018275,(('NZ_CP012747.1':1.0E-6,('NZ_CP013348.1':1.0E-6,'NZ_CP013103.1':1.0E-6)[&label=78]:0.003824)[&label=91]:0.015419,'NC_010623.1':1.0E-6)[&label=87]:0.018919)[&label=31]:0.005678,'NZ_CP018812.1':1.0E-6)[&label=36]:0.005105,('NZ_CP014507.1':0.019337,((('NZ_CP016000.1':1.0E-6,'NZ_AP014577.1':1.0E-6)[&label=29]:1.0E-6,'NC_016625.1':1.0E-6)[&label=91]:0.003768,'NC_021294.1':0.003805)[&label=87]:0.007464)[&label=94]:0.01812)[&label=39]:0.007832)[&label=56]:0.024816,('NZ_CP013449.1':0.007635,((((('NZ_CP013382.1':1.0E-6,('NZ_CP013410.1':1.0E-6,'NZ_CP009602.1':1.0E-6)[&label=2]:1.0E-6)[&label=0]:1.0E-6,('NZ_CP004098.1':1.0E-6,'NZ_CP009556.1':1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6,(((('NZ_CP023498.1':1.0E-6,((('NZ_CP004382.1':1.0E-6,'NC_021174.1':1.0E-6)[&label=1]:1.0E-6,('NZ_CP013361.1':1.0E-6,'NC_007650.1':1.0E-6)[&label=2]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP004384.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP008727.1':1.0E-6)[&label=0]:1.0E-6,(('NZ_CP010018.1':1.0E-6,'NZ_CM000439.1':1.0E-6)[&label=1]:1.0E-6,('NZ_CP004386.1':1.0E-6,('NZ_CP004118.1':1.0E-6,'NZ_CP004090.1':1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP009548.1':1.0E-6)[&label=0]:1.0E-6)[&label=38]:1.0E-6,('NZ_CP008835.1':1.0E-6,((('NC_008784.1':1.0E-6,(('NZ_CP018381.1':1.0E-6,'NZ_CP009730.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP004043.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('NZ_CP009152.1':1.0E-6,'NZ_CP009127.1':1.0E-6)[&label=0]:1.0E-6,(((('NZ_CP009477.1':1.0E-6,(('NZ_CP018055.1':1.0E-6,('NZ_CP017045.1':1.0E-6,('NZ_CP012042.1':1.0E-6,'NZ_CP009484.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP018367.1':0.003832)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((((('NZ_CP018382.1':1.0E-6,((('NZ_CP009732.1':1.0E-6,'NZ_CP009550.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009210.1':1.0E-6)[&label=0]:1.0E-6,'NC_009075.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((((((((((((((((('NZ_CP009728.1':1.0E-6,(((('NZ_CP008705.1':1.0E-6,(('NZ_CP018371.1':1.0E-6,((('NZ_CP018390.1':1.0E-6,'NZ_CP009736.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009930.1':1.0E-6)[&label=0]:1.0E-6,('NZ_CP009473.1':1.0E-6,'NZ_CP009338.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('NZ_CP018404.1':1.0E-6,'NZ_CP010974.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('NZ_CP018411.1':1.0E-6,'NZ_CP009272.1':0.003843)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('NZ_CP018419.1':1.0E-6,'NZ_CP008910.1':1.0E-6)[&label=1]:1.0E-6,((((('NZ_CP009156.1':1.0E-6,('NZ_CP008782.1':1.0E-6,('NZ_CP009742.1':1.0E-6,('NZ_CP009726.1':1.0E-6,'NZ_CP009943.1':1.0E-6)[&label=0]:1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP009164.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP008783.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP016637.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009163.1':1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(((((((((((((('NZ_CP004024.1':1.0E-6,'NC_007435.1':1.0E-6)[&label=0]:1.0E-6,'NC_022658.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP018375.1':1.0E-6)[&label=0]:1.0E-6,('NC_008835.1':1.0E-6,'NZ_CP009643.1':1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP016910.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009740.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009297.1':1.0E-6)[&label=0]:1.0E-6,(('NZ_CP017053.1':1.0E-6,'NZ_CP007801.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009234.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NC_006349.2':1.0E-6)[&label=0]:1.0E-6,'NZ_CM003020.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP018388.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP008893.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009147.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009898.1':1.0E-6)[&label=8]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('NZ_CP018398.1':1.0E-6,((('NZ_CP018386.1':1.0E-6,('NZ_CP008710.1':1.0E-6,'NZ_CP009738.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('NZ_CP018394.1':1.0E-6,('NZ_CP004378.1':1.0E-6,(('NZ_CP016912.1':1.0E-6,'NZ_CP009546.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CM003197.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP018409.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('NZ_CM003195.1':1.0E-6,('NZ_CP018392.1':1.0E-6,('NZ_CP012518.1':1.0E-6,'NZ_CP009150.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('NZ_CP017176.1':1.0E-6,('NZ_CP009708.1':1.0E-6,'NZ_CP008722.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP004369.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP008778.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009537.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP018374.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP008731.1':1.0E-6)[&label=6]:1.0E-6,'NZ_CP009588.1':1.0E-6)[&label=6]:1.0E-6,'NZ_CP009932.1':1.0E-6)[&label=6]:1.0E-6,('NZ_LK936443.1':1.0E-6,'NZ_CP009269.1':1.0E-6)[&label=0]:1.0E-6)[&label=1]:1.0E-6,'NC_018529.1':1.0E-6)[&label=9]:1.0E-6,'NZ_CP017051.1':1.0E-6)[&label=9]:1.0E-6,('NZ_CP017047.1':1.0E-6,('NC_021877.1':1.0E-6,(('NZ_CP018370.1':1.0E-6,('NZ_CP008891.1':1.0E-6,('NZ_CP004002.1':1.0E-6,'NZ_CP010349.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CM001157.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((('NZ_CP018417.1':1.0E-6,'NZ_CP017049.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP009586.1':1.0E-6)[&label=0]:1.0E-6,('NZ_CP018397.1':1.0E-6,('NZ_CP012516.1':1.0E-6,'NZ_CP008917.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP008779.1':1.0E-6)[&label=0]:1.0E-6,(('NZ_CP016639.1':1.0E-6,('NZ_CP018402.1':1.0E-6,'NZ_CP004004.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP004380.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP012577.1':1.0E-6)[&label=0]:1.0E-6,'NZ_CP010066.1':0.003819)[&label=0]:1.0E-6,'NZ_CP008912.1':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'NZ_CP009734.1':1.0E-6)[&label=6]:1.0E-6,'NZ_CP018407.1':1.0E-6)[&label=6]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('NZ_CP018412.1':1.0E-6,('NZ_CP009536.1':1.0E-6,'NZ_CP009160.1':1.0E-6)[&label=1]:1.0E-6)[&label=1]:1.0E-6,'NC_009078.1':1.0E-6)[&label=0]:1.0E-6)[&label=8]:1.0E-6)[&label=78]:0.003819)[&label=46]:1.0E-6,('NZ_CP013458.1':1.0E-6,'NZ_CP013418.1':0.003832)[&label=90]:0.007667)[&label=81]:0.007673)[&label=88]:0.011485)[&label=22]:0.007781)[&label=37]:0.015645)[&label=100]:0.33747,'NZ_CP014510.1':0.925993)[&label=78]:0.126645)[&label=87]:0.336288)[&label=36]:0.157185,'NZ_CP016005.1':1.347122)[&label=35]:0.281553)[&label=51]:0.370829,('NZ_CP016004.1':1.99733,(('NC_007971.2':0.157578,'NZ_CP017753.1':0.079445)[&label=100]:0.695392,(('NC_015724.1':0.012326,'NC_005241.1':0.014007)[&label=100]:0.783319,(((('NC_018696.1':1.0E-6,'NC_010627.1':1.0E-6)[&label=34]:1.0E-6,'NZ_CP012899.1':1.0E-6)[&label=100]:0.121889,(('NC_021288.1':0.028311,(('NC_016590.1':1.0E-6,'NZ_AP014578.1':1.0E-6)[&label=33]:1.0E-6,'NZ_CP016001.1':1.0E-6)[&label=100]:0.032759)[&label=76]:0.037696,'NZ_CP010024.1':0.054124)[&label=33]:0.009863)[&label=100]:0.903244,('NZ_CP010025.1':0.36907,(('NZ_CP014580.1':0.021115,('NZ_CP022991.1':0.061395,'NZ_CP017759.1':0.301979)[&label=77]:0.048348)[&label=100]:0.50796,(('NZ_CP012941.1':0.190398,(('NC_010529.1':0.033265,('NC_022515.1':0.029472,'NC_007336.1':0.02363)[&label=92]:0.022941)[&label=99]:0.064542,('NZ_CP008761.1':0.012055,('NZ_CP017563.1':0.0072,'NC_014119.1':0.014548)[&label=100]:0.032265)[&label=100]:0.085391)[&label=100]:0.139646)[&label=99]:0.176988,(((('NC_021295.1':0.132633,('NC_014120.1':0.033503,'NZ_CP017565.1':0.024368)[&label=100]:0.064102)[&label=99]:0.065454,('NZ_CP013369.1':0.045623,('NZ_CP013381.1':1.0E-6,'NZ_CP009547.1':1.0E-6)[&label=100]:0.079756)[&label=100]:0.100208)[&label=97]:0.11752,('NZ_CP013419.1':0.03557,('NC_010553.1':0.003643,'NZ_CP015032.1':0.010853)[&label=66]:0.005315)[&label=89]:0.058615)[&label=100]:0.434178,'NZ_CP011808.2':0.376929)[&label=35]:0.047338)[&label=46]:0.063199)[&label=40]:0.074298)[&label=26]:0.080118)[&label=98]:0.371066)[&label=91]:0.261834)[&label=94]:0.382642)[&label=49]:0.319736)[&label=32]:0.34276)[&label=100]:2.443378)[&label=57]:0.165793,(('NZ_CP008730.1':1.0E-6,'NC_010084.1':1.0E-6)[&label=99]:1.0E-6,((('NC_015727.1':0.099294,((('NC_007973.1':1.0E-6,'NZ_CP022989.1':1.0E-6)[&label=34]:1.0E-6,'NZ_CP012605.1':1.0E-6)[&label=100]:0.127565,('NZ_CP018416.1':0.025251,('NZ_CP013375.1':0.02536,(('NZ_CP007212.1':0.016857,'NZ_CP007783.1':0.026861)[&label=54]:0.016886,'NZ_CP018372.1':1.0E-6)[&label=32]:0.008655)[&label=33]:0.008392)[&label=60]:0.027393)[&label=70]:0.017616)[&label=86]:0.036124,'NC_015381.1':0.075771)[&label=58]:0.026817,('NC_003295.1':0.047906,'NZ_CP017748.1':0.011632)[&label=77]:0.040944)[&label=60]:0.04671)[&label=100]:1.695546)[&label=46]:0.097167)[&label=90]:0.434123)[&label=100]:0.763381,'NZ_CP016006.1':0.00795);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="POLAR";
+	set layout.zoom=257;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=false;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="RepliconType";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
